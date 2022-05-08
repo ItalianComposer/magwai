@@ -1,3 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&display=swap");
+header {
+  background: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 100px; }
 
+.nav_menu__item {
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF; }
+
+.header__nav_menu_container {
+  display: flex;
+  align-items: center; }
+
+.header__button_container {
+  display: flex;
+  align-items: center; }
+
+.phone_button {
+  border: none;
+  background-color: inherit; }
+
+.request_button {
+  width: 282.5px;
+  height: 60px;
+  border: none;
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF;
+  background: #C2AB81; }
+
+.request_button__container {
+  display: flex;
+  align-items: center; }
+  .request_button__container .l {
+    border-color: transparent transparent #C2AB81 transparent;
+    border-style: solid;
+    border-width: 0 0 60px 19px;
+    display: block;
+    float: left;
+    height: 0;
+    width: 0; }
+  .request_button__container .r {
+    border-color: #C2AB81 transparent transparent transparent;
+    border-style: solid;
+    border-width: 60px 19px 0 0;
+    display: block;
+    float: right;
+    height: 0;
+    width: 0; }
+  .request_button__container .lw {
+    border-color: transparent #FFF transparent transparent;
+    border-style: solid;
+    border-width: 60px 10px 0 0;
+    display: block;
+    float: right;
+    height: 0px;
+    width: 0; }
+  .request_button__container .rw {
+    border-color: #FFF transparent transparent transparent;
+    border-style: solid;
+    border-width: 60px 10px 0 0;
+    display: block;
+    float: right;
+    height: 0px;
+    width: 0; }
+
+.main_content {
+  background-image: url(img/bg/dogie.png);
+  /*background: #272727;*/ }
+
+.main_content__bg_image {
+  border-radius: 60px 60px 0px 0px; }
+
+.main_content__tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 100px 0 100px;
+  position: absolute;
+  bottom: 350px;
+  width: 1720px; }
+
+.description__title {
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF;
+  font-size: 42px;
+  line-height: 51px;
+  max-width: 686px; }
+
+.description_text {
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF; }
+
+.tools__switcher {
+  display: flex;
+  flex-direction: column; }
+
+.switcher__button {
+  background: inherit;
+  border: none;
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+
+.cards {
+  background: #272727;
+  padding: 53px 100px 256px 100px; }
+
+.cards__title {
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF;
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+  margin: 0 0 53px 0; }
+
+.cards_container {
+  display: flex; }
+
+.cards_container__card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-right: 30px; }
+
+.card__description {
+  padding: 0 24px 30px 24px;
+  background: #FFF; }
+
+.card__description__title {
+  color: #171717;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase; }
+
+.card__description__text {
+  color: #171717;
+  font: 100% "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px; }
+
+.card__description__content {
+  font: 100% "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666; }
+
+.card__description__button {
+  border: none;
+  background: #171717;
+  height: 50px;
+  width: 100%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFF; }
+
+.cards__load_more {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&display=swap");
+header {
+  background: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 100px; }
+
+#mobileCta, #mobileCtaClose {
+  display: none;
+  cursor: pointer; }
+
+.logo {
+  margin-right: 34px; }
+
+.nav_menu__item {
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF;
+  margin: 0 1.1vw; }
+
+.header__nav_menu_container {
+  display: flex;
+  align-items: center;
+  margin: 29px 0; }
+
+.header__button_container {
+  display: flex;
+  align-items: center;
+  cursor: pointer; }
+
+.phone_button {
+  border: none;
+  background-color: inherit; }
+
+.request_button {
+  width: 282.5px;
+  height: 60px;
+  border: none;
+  font: 100% "Montserrat", sans-serif;
+  color: #FFF;
+  background: #C2AB81;
+  cursor: pointer; }
+
+.request_button__container {
+  display: flex;
+  align-items: center; }
+  .request_button__container .l {
+    border-color: transparent transparent #C2AB81 transparent;
+    border-style: solid;
+    border-width: 0 0 60px 19px;
+    display: block;
+    float: left;
+    height: 0;
+    width: 0; }
+  .request_button__container .r {
+    border-color: #C2AB81 transparent transparent transparent;
+    border-style: solid;
+    border-width: 60px 19px 0 0;
+    display: block;
+    float: right;
+    height: 0;
+    width: 0; }
+  .request_button__container .lw {
+    border-color: transparent #FFF transparent transparent;
+    border-style: solid;
+    border-width: 60px 10px 0 0;
+    display: block;
+    float: right;
+    height: 0px;
+    width: 0; }
+  .request_button__container .rw {
+    border-color: #FFF transparent transparent transparent;
+    border-style: solid;
+    border-width: 60px 10px 0 0;
+    display: block;
+    float: right;
+    height: 0px;
+    width: 0; }
+
+/*# sourceMappingURL=header.css.map */

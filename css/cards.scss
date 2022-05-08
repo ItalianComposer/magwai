@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&display=swap');
+$font-montserat: 'Montserrat', sans-serif;
+$text-main-color: #FFF;
+$card-title-color: #171717;
+$card-description-color: #666666;
+.cards {
+  background: #272727;
+  padding: 53px 3vw 256px 3vw;
+}
+.cards__title {
+  font: 100% $font-montserat;
+  color: $text-main-color;
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+  margin: 0 0 53px 0;
+}
+.cards__cards_container {
+
+}
+.cards_container {
+  display: flex;
+}
+.cards_container__card {
+  display: flex;
+  flex-direction: column;
+  width: 16.6vw;
+  max-width: 320px;
+  margin-right: 30px;
+}
+.card__description {
+  padding: 0 24px 30px 24px;
+  background: #FFF;
+}
+.card__description__title {
+  color: $card-title-color;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.card__description__text {
+  color: $card-title-color;
+  font: 100% $font-montserat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.card__description__content {
+  font: 100% $font-montserat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $card-description-color;
+}
+.card__description__caption {
+
+}
+.card__description__button {
+  border: none;
+  background: #171717;
+  height: 50px;
+  width: 100%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFF;
+}
+.cards__load_more {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}

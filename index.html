@@ -4,10 +4,172 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
   <title>Magwai</title>
 </head>
-<body>
+<body id="body">
+  <header>
+    <div class="header__nav_menu_container">
+      <img id="mobileCta" class="mobile_menu" src="img\icons\menu.svg" alt="">
+      <img id="mobileCtaClose" class="mobile_menu" src="img\icons\menu.svg" alt="">
+      <img class="logo" src="img\logo\logo.svg" alt="">
+      <nav id="navMenu" class="nav_menu">
+        <a class="nav_menu__item" href="#">услуги</a>
+        <a class="nav_menu__item" href="#">абонементы</a>
+        <a class="nav_menu__item" href="#">почему мы</a>
+        <a class="nav_menu__item" href="#">оборудование</a>
+        <a class="nav_menu__item" href="#">акции</a>
+        <a class="nav_menu__item" href="#">FAQ</a>
+        <a class="nav_menu__item" href="#">контакты</a>
+      </nav>
+    </div>
+    <div id="headerButtonContainer" class="header__button_container">
+      <button class="phone_button" type="button" name="phone"><img src="img\icons\phone.svg" alt=""></button>
+      <div class="request_button__container">
+        <span class="l"></span>
+        <button id="requestBtnHeader" class="request_button" type="button" name="request">оставить заявку</button>
+        <span class="r"></span>
+        <span class="lw"></span>
+        <span class="rw"></span>
+      </div>
+    </div>
+  </header>
+  <div class="main_content">
+    <img id="imgDogie" class="main_content__bg_image" src="img\bg\dogie.png" alt=""></img>
+    <img id="imgFall" class="main_content__bg_image" src="img\bg\fall.png" alt="">
+    <img id="imgReturn" class="main_content__bg_image" src="img\bg\return.png" alt="">
+    <div class="main_content__tools">
+      <div class="tools__description">
+        <h2 id="descTitle" class="description__title">Полет Илона Маска и DOGIE COIN</h2>
+        <p id="descText" class="description_text">В прошлый четверг все офигели от полета DOGIE COIN на марс.</p>
+        <div class="request_button__container">
+          <span class="l"></span>
+          <button id="requestBtnContent" class="request_button" type="button" name="request">оставить заявку</button>
+          <span class="r"></span>
+          <span class="lw"></span>
+          <span class="rw"></span>
+        </div>
+      </div>
+      <div class="tools__switcher">
+        <button id="btnDogie" class="switcher__button" type="button" name="button">DOgie coin</button>
+        <button id="btnFall" class="switcher__button" type="button" name="button">ПАДЕНИЕ</button>
+        <button id="btnBack" class="switcher__button" type="button" name="button">ВОЗВРАЩЕНИЕ</button>
+      </div>
+    </div>
+    <!-- <div class="main_content__shadow"></div> -->
+    <div id="popupShadow" class="popup_shadow">
+      <div id="popUp" class="popup">
+        <img class="popupimg" src="img\popup\moon.png" alt="">
+        <div class="popup__description">
+          <div class="popup__tools">
+            <div class="popup__header">
+              <h2 class="popup_title">Оставьте заявку</h2>
+              <p class="popup_tip">Оставьте заявку и наш менеджер свяжется с вами в течение 10 -15 минут</p>
+            </div>
+            <button id="closePopUp" class="popup_close" type="button" name="close"><div class="close"></div></button>
+          </div>
+          <form class="popup__form" action="#" method="post">
+            <input class="form__input" type="name" name="name" value="" placeholder="Ваше имя*">
+            <input class="form__input" type="email" name="email" value="" placeholder="E-mail*">
+            <input class="form__input" type="tel" name="tel" value="" placeholder="+7(___)">
+            <input class="form__input form__input_message" type="text" name="message" value="" placeholder="Ваш вопрос*">
+            <div class="form__submit_button">
+              <div class="request_button__container">
+                <span class="l"></span>
+                <button id="requestBtn" class="request_button" type="button" name="request">оставить заявку</button>
+                <span class="r"></span>
+                <span class="lw"></span>
+                <span class="rw"></span>
+              </div>
+              <p class="policy">Нажимая на кнопку “Оставить заявку” вы соглашаетесь с “Пользовательским соглашением”</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
+  </div>
+  <div id="cards" class="cards">
+    <h2 class="cards__title">карточки</h2>
+    <div class="cards__cards_container">
+      <div class="cards_container">
+        <div class="cards_container__card">
+          <img src="img\cards\Bitmap.png" alt="">
+          <div class="card__description">
+            <p class="card__description__title">bridge</p>
+            <p class="card__description__text">How to increase your productivity with a Music</p>
+            <p class="card__description__content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+               santium doloremque laudantium, totam rem sed ut perspiciatis unde
+                omnis iste natus error sit voluptatem accusantium dolo…
+            </p>
+            <p class="card__description__caption">Posted by Eugenia, on July  24, 2019</p>
+            <button class="card__description__button" type="button" name="button">Continue reading</button>
+          </div>
+        </div>
+        <div class="cards_container__card">
+          <img src="img\cards\Bitmap.png" alt="">
+          <div class="card__description">
+            <p class="card__description__title">bridge</p>
+            <p class="card__description__text">How to increase your productivity with a Music</p>
+            <p class="card__description__content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+               santium doloremque laudantium, totam rem sed ut perspiciatis unde
+                omnis iste natus error sit voluptatem accusantium dolo…
+            </p>
+            <p class="card__description__caption">Posted by Eugenia, on July  24, 2019</p>
+            <button class="card__description__button" type="button" name="button">Continue reading</button>
+          </div>
+        </div>
+        <div class="cards_container__card">
+          <img src="img\cards\Bitmap.png" alt="">
+          <div class="card__description">
+            <p class="card__description__title">bridge</p>
+            <p class="card__description__text">How to increase your productivity with a Music</p>
+            <p class="card__description__content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+               santium doloremque laudantium, totam rem sed ut perspiciatis unde
+                omnis iste natus error sit voluptatem accusantium dolo…
+            </p>
+            <p class="card__description__caption">Posted by Eugenia, on July  24, 2019</p>
+            <button class="card__description__button" type="button" name="button">Continue reading</button>
+          </div>
+        </div>
+        <div class="cards_container__card">
+          <img src="img\cards\Bitmap.png" alt="">
+          <div class="card__description">
+            <p class="card__description__title">bridge</p>
+            <p class="card__description__text">How to increase your productivity with a Music</p>
+            <p class="card__description__content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+               santium doloremque laudantium, totam rem sed ut perspiciatis unde
+                omnis iste natus error sit voluptatem accusantium dolo…
+            </p>
+            <p class="card__description__caption">Posted by Eugenia, on July  24, 2019</p>
+            <button class="card__description__button" type="button" name="button">Continue reading</button>
+          </div>
+        </div>
+        <div class="cards_container__card">
+          <img src="img\cards\Bitmap.png" alt="">
+          <div class="card__description">
+            <p class="card__description__title">bridge</p>
+            <p class="card__description__text">How to increase your productivity with a Music</p>
+            <p class="card__description__content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+               santium doloremque laudantium, totam rem sed ut perspiciatis unde
+                omnis iste natus error sit voluptatem accusantium dolo…
+            </p>
+            <p class="card__description__caption">Posted by Eugenia, on July  24, 2019</p>
+            <button class="card__description__button" type="button" name="button">Continue reading</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards__load_more">
+      <div class="request_button__container">
+        <span class="l"></span>
+        <button id="requestBtn" class="request_button" type="button" name="request">оставить заявку</button>
+        <span class="r"></span>
+        <span class="lw"></span>
+        <span class="rw"></span>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

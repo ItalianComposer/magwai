@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+$font-montserat: 'Montserrat', sans-serif;
+$text-main-color: #FFF;
+$card-title-color: #171717;
+$card-description-color: #666666;
+.main_content {
+  /*background-image: url(../img/bg/dogie.png);*/
+  background: #272727;
+
+}
+.main_content__shadow {
+  background: linear-gradient(180deg, #131313 0%, rgba(19, 19, 19, 0) 100%);
+  transform: rotate(-180deg);
+  height: 389px;
+}
+.main_content__bg_image {
+  border-radius: 60px 60px 0px 0px;
+  width: 100vw;
+}
+.main_content__tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 4vw 0 4vw;
+  position: absolute;
+  top: 40vh;
+  max-width: 1720px;
+  width: 89.5vw;
+}
+.tools__description {
+
+}
+.description__title {
+  font: 100% $font-montserat;
+  color: $text-main-color;
+  font-size: 42px;
+  line-height: 51px;
+  max-width: 686px;
+}
+.description_text {
+  font: 100% $font-montserat;
+  color: $text-main-color;
+}
+.tools__switcher {
+  display: flex;
+  flex-direction: column;
+}
+.switcher__button {
+  background: inherit;
+  border: none;
+  font: 100% $font-montserat;
+  color: $text-main-color;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  opacity: 0.6;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.tool {
+  background: inherit;
+  border: none;
+  font: 100% $font-montserat;
+  color: $text-main-color;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+#imgFall, #imgReturn {
+  display: none;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+#imgDogie {
+  width: 98.3vw;
+}
